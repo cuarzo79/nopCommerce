@@ -7,7 +7,7 @@ using NUnit.Framework;
 namespace Nop.Core.Tests.ComponentModel
 {
     [TestFixture]
-    public class GenericListTypeConverter
+    public class GenericListTypeConverterTest
     {
         [SetUp]
         public void SetUp()
@@ -22,7 +22,8 @@ namespace Nop.Core.Tests.ComponentModel
         public void Can_get_int_list_type_converter()
         {
             var converter = TypeDescriptor.GetConverter(typeof(List<int>));
-            converter.GetType().ShouldEqual(typeof(GenericListTypeConverter<int>));
+            //converter.GetType().ShouldEqual(typeof (GenericListTypeConverter<int>));
+            Assert.That(converter.GetType(), Is.EqualTo(typeof (GenericListTypeConverter<int>)));
         }
 
         [Test]

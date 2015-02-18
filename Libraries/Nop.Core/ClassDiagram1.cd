@@ -1,0 +1,1979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nop.Core.BaseEntity" Collapsed="true">
+    <Position X="118" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAgAAAAAAAAAAAAIAAAAAAAAAIAiA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.CommonHelper" Collapsed="true">
+    <Position X="230.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQCAAAEAAAAAAhADAACAEIAQAAAABAAgEAAAA=</HashCode>
+      <FileName>CommonHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Extensions" Collapsed="true">
+    <Position X="227.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.NopException" Collapsed="true">
+    <Position X="227.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NopException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.NopVersion" Collapsed="true">
+    <Position X="230.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>NopVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.PagedList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="234.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABAAAAAAAEAAUAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>PagedList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.WebHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="230.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAoAAACQAQAAAIAAIICAABAAAKAQAAAABAAAAgEAA=</HashCode>
+      <FileName>WebHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.XmlHelper" Collapsed="true">
+    <Position X="236" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAiAAAAAEAgAAASAAAAAAAAAA=</HashCode>
+      <FileName>XmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Caching.CacheExtensions" Collapsed="true">
+    <Position X="244.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caching\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Caching.MemoryCacheManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="236" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAAABABAAAAABAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Caching\MemoryCacheManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Caching.NopNullCache" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="229" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABABAAAAABAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Caching\NopNullCache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Caching.PerRequestCacheManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="239.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABABAAAAABAAAAAAAAgAAACAAAABAAAA=</HashCode>
+      <FileName>Caching\PerRequestCacheManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.ComponentModel.GenericListTypeConverter&lt;T&gt;" Collapsed="true">
+    <Position X="243" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAA=</HashCode>
+      <FileName>ComponentModel\GenericListTypeConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.ComponentModel.WriteLockDisposable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="234.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ComponentModel\WriteLockDisposable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Configuration.NopConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="243" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAgAAABAAEAAAAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\NopConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Data.BaseDataProviderManager" Collapsed="true">
+    <Position X="230.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Data\BaseDataProviderManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Data.DataSettings" Collapsed="true">
+    <Position X="241.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAAAAgAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Data.DataSettingsHelper" Collapsed="true">
+    <Position X="243" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DataSettingsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Data.DataSettingsManager" Collapsed="true">
+    <Position X="244.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAIAgAAIAAAAAEAAAAAAAAQAAQAAAAAA=</HashCode>
+      <FileName>Data\DataSettingsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Affiliates.Affiliate" Collapsed="true">
+    <Position X="130.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAiCAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Affiliates\Affiliate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Blogs.BlogComment" Collapsed="true">
+    <Position X="143.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAAAAAAAAEAAAAAAAAEAABAAAAAAAAAQAAA=</HashCode>
+      <FileName>Domain\Blogs\BlogComment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Blogs.BlogExtensions" Collapsed="true">
+    <Position X="239.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Blogs\BlogExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Blogs.BlogPost" Collapsed="true">
+    <Position X="170.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAAEAAAECBAAQQQgAAAEAoAAgAAABAACA=</HashCode>
+      <FileName>Domain\Blogs\BlogPost.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Blogs.BlogPostTag" Collapsed="true">
+    <Position X="241.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Blogs\BlogPostTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Blogs.BlogSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="243" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAIAAAEAgAAAAEAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Domain\Blogs\BlogSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.BackInStockSubscription" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAAAAAAAAAAEAAEAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\BackInStockSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.CatalogSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="227.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoCAUIJpIAAULwDQAAGgFBABAgBCBAsoRBCAIqBAQBw=</HashCode>
+      <FileName>Domain\Catalog\CatalogSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.Category" Collapsed="true">
+    <Position X="56" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQEAAACAoAABACEAAFAQwQEAAAZAAAAgAMABBAAA=</HashCode>
+      <FileName>Domain\Catalog\Category.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.CategoryTemplate" Collapsed="true">
+    <Position X="74" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\CategoryTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.CrossSellProduct" Collapsed="true">
+    <Position X="87.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\CrossSellProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.Manufacturer" Collapsed="true">
+    <Position X="146" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAQAAAACAoAABACEAAEAQwQAAAABAAAAgAEABAAAA=</HashCode>
+      <FileName>Domain\Catalog\Manufacturer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ManufacturerTemplate" Collapsed="true">
+    <Position X="157.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ManufacturerTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.PriceRange" Collapsed="true">
+    <Position X="230.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\PriceRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.Product" Collapsed="true">
+    <Position X="186.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UBQCbQAQZcwDIRp8W1oolOVg1PQgEWAgvB8GOcFJpgM=</HashCode>
+      <FileName>Domain\Catalog\Product.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductAttribute" Collapsed="true">
+    <Position X="200" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductAttributeCombination" Collapsed="true">
+    <Position X="215.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAIQAAAAAAQCIAIAAAAAAAACAEAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductAttributeCombination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductAttributeMapping" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACQAAAEAAAAAAQAAIAAQCiAABAkEAAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\Catalog\ProductAttributeMapping.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductAttributeValue" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAAAgAAAAAABwIAkAAABAABAAAgBAABAA=</HashCode>
+      <FileName>Domain\Catalog\ProductAttributeValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductCategory" Collapsed="true">
+    <Position X="35.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACQAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\Catalog\ProductCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductExtensions" Collapsed="true">
+    <Position X="232.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductManufacturer" Collapsed="true">
+    <Position X="58.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgCQAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductManufacturer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductPicture" Collapsed="true">
+    <Position X="76.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACwAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductPicture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductReview" Collapsed="true">
+    <Position X="89.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECCAAAAAAEAEAAIEAAAQAAAAAAABECAAAAAIAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductReview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductReviewHelpfulness" Collapsed="true">
+    <Position X="101" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAA=</HashCode>
+      <FileName>Domain\Catalog\ProductReviewHelpfulness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductSpecificationAttribute" Collapsed="true">
+    <Position X="123.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQCQQAAAAAEAAAAIAAAIAAAAAAAAAAAAAAAAAAAUAA=</HashCode>
+      <FileName>Domain\Catalog\ProductSpecificationAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductTag" Collapsed="true">
+    <Position X="132.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>Domain\Catalog\ProductTag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductTemplate" Collapsed="true">
+    <Position X="148.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.ProductWarehouseInventory" Collapsed="true">
+    <Position X="173" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAABAAgAAAAAAAAAIAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductWarehouseInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.RelatedProduct" Collapsed="true">
+    <Position X="202.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\RelatedProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.SpecificationAttribute" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAARAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\SpecificationAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.SpecificationAttributeOption" Collapsed="true">
+    <Position X="60.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQAAAAAAAAAAIAAAgAAQAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\SpecificationAttributeOption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.SpecificationAttributeOptionFilter" Collapsed="true">
+    <Position X="236" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIAAAAAAAAAAAAAAAAEAABAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\SpecificationAttributeOptionFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Catalog.TierPrice" Collapsed="true">
+    <Position X="62.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAACAAAAAQAAAAAAAAAAEAAAAAAAAEAAAAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\TierPrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Cms.WidgetSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Cms\WidgetSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.Address" Collapsed="true">
+    <Position X="92" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAACgEAAAIAEEEQAAAAAIQIAAAAAAABAAIABg=</HashCode>
+      <FileName>Domain\Common\Address.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.AddressAttribute" Collapsed="true">
+    <Position X="103.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAQQgCAAAEAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Domain\Common\AddressAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.AddressAttributeValue" Collapsed="true">
+    <Position X="112.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAIAgAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\AddressAttributeValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.AddressSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="227.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAAAAITAAAAAAAAGBAAgAAgQQgAAAACAA=</HashCode>
+      <FileName>Domain\Common\AddressSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.AdminAreaSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="229" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAABAABAACAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Domain\Common\AdminAreaSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.CommonSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAFAAAAgAAAoAAAQAAAFAAQAAAAQAAAgCAAIAAAAA=</HashCode>
+      <FileName>Domain\Common\CommonSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.GenericAttribute" Collapsed="true">
+    <Position X="175.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAQAAAAAEAAAAAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Domain\Common\GenericAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.PdfSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="237.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAIAAAAAAAABAQAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\PdfSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.SearchTerm" Collapsed="true">
+    <Position X="204.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\SearchTerm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Common.SearchTermReportLine" Collapsed="true">
+    <Position X="237.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\SearchTermReportLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Configuration.Setting" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAEAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\Configuration\Setting.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.BestCustomerReportLine" Collapsed="true">
+    <Position X="236" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\BestCustomerReportLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.Customer" Collapsed="true">
+    <Position X="38" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQJBARIhUKAAgABCAUACEAEAAAAAACoiCgAAAAAOAAA=</HashCode>
+      <FileName>Domain\Customers\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.CustomerAttribute" Collapsed="true">
+    <Position X="44.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAIAAAAAAAAAAAQQgAAAAEAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Domain\Customers\CustomerAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.CustomerAttributeValue" Collapsed="true">
+    <Position X="65" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAgAAAAAAAQAAQAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\CustomerAttributeValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.CustomerExtensions" Collapsed="true">
+    <Position X="237.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAAAAAQAAABAAAAAAKAAAAABAAAESAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\CustomerExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.CustomerRole" Collapsed="true">
+    <Position X="114.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAABAAAIAAQAAAEAAAAgAggIAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\CustomerRole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.CustomerSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="239.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g4IAABIAQAAICCIozAQEAJRAAWBAB0IAgQQgAERACAA=</HashCode>
+      <FileName>Domain\Customers\CustomerSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.ExternalAuthenticationRecord" Collapsed="true">
+    <Position X="134.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAACAAAAAABAAAAAAAQAAAABAEAAAAAAAAAgA=</HashCode>
+      <FileName>Domain\Customers\ExternalAuthenticationRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.ExternalAuthenticationSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="229" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\ExternalAuthenticationSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.RewardPointsHistory" Collapsed="true">
+    <Position X="177.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAIAgAAAAEAAAAAAAAAAABAAAAAAIAAAAIA=</HashCode>
+      <FileName>Domain\Customers\RewardPointsHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.RewardPointsSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="236" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIAAIIAAAAgEAAECAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\RewardPointsSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.SystemCustomerAttributeNames" Collapsed="true">
+    <Position X="241.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAxAAlABggAEEACIBDEAAAYIAiBYAAgAAACAZIIAABk=</HashCode>
+      <FileName>Domain\Customers\SystemCustomerAttributeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.SystemCustomerNames" Collapsed="true">
+    <Position X="243" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\SystemCustomerNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Customers.SystemCustomerRoleNames" Collapsed="true">
+    <Position X="244.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Domain\Customers\SystemCustomerRoleNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.Country" Collapsed="true">
+    <Position X="40.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAIAAAAAgAACAAAAAQAQADAAQBAEAAQAAAAAAA=</HashCode>
+      <FileName>Domain\Directory\Country.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.Currency" Collapsed="true">
+    <Position X="47" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQACAAAAAAABADUAAAAQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Directory\Currency.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.CurrencySettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="236" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACCAQAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Domain\Directory\CurrencySettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.ExchangeRate" Collapsed="true">
+    <Position X="243" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Directory\ExchangeRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.MeasureDimension" Collapsed="true">
+    <Position X="94.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAI=</HashCode>
+      <FileName>Domain\Directory\MeasureDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.MeasureSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Domain\Directory\MeasureSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.MeasureWeight" Collapsed="true">
+    <Position X="116.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAI=</HashCode>
+      <FileName>Domain\Directory\MeasureWeight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Directory.StateProvince" Collapsed="true">
+    <Position X="125.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAAAAAAAAACAAAAAQAAAIQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Directory\StateProvince.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Discounts.Discount" Collapsed="true">
+    <Position X="137" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQQAAAAAIIAAAAgiAAAQDAAAACAAAAAEggDBCACA=</HashCode>
+      <FileName>Domain\Discounts\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Discounts.DiscountRequirement" Collapsed="true">
+    <Position X="159.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Discounts\DiscountRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Discounts.DiscountUsageHistory" Collapsed="true">
+    <Position X="188.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Discounts\DiscountUsageHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.Forum" Collapsed="true">
+    <Position X="218" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAKgAEBAAEAAAAQAAAAAAAAAEAAgAAAJAAA=</HashCode>
+      <FileName>Domain\Forums\Forum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.ForumGroup" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAABAAEAAAAQAAAAAAAAAAACAAgAAAAA=</HashCode>
+      <FileName>Domain\Forums\ForumGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.ForumPost" Collapsed="true">
+    <Position X="29" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAABAAEAAAAAiAAAAABAAAAAACAACAAA=</HashCode>
+      <FileName>Domain\Forums\ForumPost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.ForumSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="241.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAgFAEAAAAIgAQIQCACBBABAMCBgQKwAIAAIQAQAA=</HashCode>
+      <FileName>Domain\Forums\ForumSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.ForumSubscription" Collapsed="true">
+    <Position X="67.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAEAAAAgCAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Forums\ForumSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.ForumTopic" Collapsed="true">
+    <Position X="78.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAJAIAAEBAAMAAAQAAAAAAABACAAAgAgABAAA=</HashCode>
+      <FileName>Domain\Forums\ForumTopic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Forums.PrivateMessage" Collapsed="true">
+    <Position X="105.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAMAAEAAAAAAEBAAAAACAGAAAAAg=</HashCode>
+      <FileName>Domain\Forums\PrivateMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Localization.Language" Collapsed="true">
+    <Position X="139.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAUAAAAAIAAAAACAAAAAQAUAAAAAAAAAAAAAAAAQg=</HashCode>
+      <FileName>Domain\Localization\Language.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Localization.LocaleStringResource" Collapsed="true">
+    <Position X="150.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Localization\LocaleStringResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Localization.LocalizationSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="230.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAAAAIAAAAAAAAAAAAAAAAAAAiIAABIAAA=</HashCode>
+      <FileName>Domain\Localization\LocalizationSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Localization.LocalizedProperty" Collapsed="true">
+    <Position X="179.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAACAIAAAAAAAgAAAAABgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Localization\LocalizedProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Logging.ActivityLog" Collapsed="true">
+    <Position X="191" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAAAAAQAAIEAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Logging\ActivityLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Logging.ActivityLogType" Collapsed="true">
+    <Position X="206.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Domain\Logging\ActivityLogType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Logging.Log" Collapsed="true">
+    <Position X="220.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAACAAECAAAAAAAAAgBoAAAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Logging\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Media.Download" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAQARAAAAAAAQAAAAAAQAAAEAQAAAAAAA=</HashCode>
+      <FileName>Domain\Media\Download.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Media.MediaSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="234.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIMAAAAgAAAgAAAAIAGAGIAAAAAAEAAAAQAAQAA=</HashCode>
+      <FileName>Domain\Media\MediaSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Media.Picture" Collapsed="true">
+    <Position X="49.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQgAAAAAAQAAAAAAAAgAEAAAAAAIAA=</HashCode>
+      <FileName>Domain\Media\Picture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.Campaign" Collapsed="true">
+    <Position X="80.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMABEAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Messages\Campaign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.EmailAccount" Collapsed="true">
+    <Position X="96.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAACAAAAQAAAAAACAAACAACAAAQAAAAAAE=</HashCode>
+      <FileName>Domain\Messages\EmailAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.EmailAccountSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="229" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Messages\EmailAccountSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.EmailSubscribedEvent" Collapsed="true">
+    <Position X="230.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Messages\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.EmailUnsubscribedEvent" Collapsed="true">
+    <Position X="232.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Messages\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.EntityTokensAddedEvent&lt;T, U&gt;" Collapsed="true">
+    <Position X="239.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAEAABAAA=</HashCode>
+      <FileName>Domain\Messages\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.MessageTokensAddedEvent&lt;U&gt;" Collapsed="true">
+    <Position X="239.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAIAABAAA=</HashCode>
+      <FileName>Domain\Messages\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.MessageTemplate" Collapsed="true">
+    <Position X="161.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAAAAAAEIABAAQAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Domain\Messages\MessageTemplate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.MessageTemplatesSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="237.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Messages\MessageTemplatesSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.NewsLetterSubscription" Collapsed="true">
+    <Position X="193.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAEAAEAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Messages\NewsLetterSubscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Messages.QueuedEmail" Collapsed="true">
+    <Position X="211.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAMAAAAgAAAIAAUAMABAACAAgAIABAAAABAAACAAEg=</HashCode>
+      <FileName>Domain\Messages\QueuedEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.News.NewsComment" Collapsed="true">
+    <Position X="222.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAABAAAgABAAEAAAAAAAAAAABAAAAAAAAAgAAA=</HashCode>
+      <FileName>Domain\News\NewsComment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.News.NewsItem" Collapsed="true">
+    <Position X="26.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAgAECACECAAAgQQgAAAAAgAggAAABAACA=</HashCode>
+      <FileName>Domain\News\NewsItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.News.NewsSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="241.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAJAAAEAgAAAAAAAAAAAAEAAAAGAAAAA=</HashCode>
+      <FileName>Domain\News\NewsSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.BestsellersReportLine" Collapsed="true">
+    <Position X="237.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\BestsellersReportLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.CheckoutAttribute" Collapsed="true">
+    <Position X="51.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAUACAAAQWiQABAkCAAAAAAAAAACAA=</HashCode>
+      <FileName>Domain\Orders\CheckoutAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.CheckoutAttributeValue" Collapsed="true">
+    <Position X="69.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAAAgAAAAAAAwAAAAAAABAAAAAAAAABAA=</HashCode>
+      <FileName>Domain\Orders\CheckoutAttributeValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderPaidEvent" Collapsed="true">
+    <Position X="227.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderPlacedEvent" Collapsed="true">
+    <Position X="229" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderCancelledEvent" Collapsed="true">
+    <Position X="244.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderRefundedEvent" Collapsed="true">
+    <Position X="230.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.GiftCard" Collapsed="true">
+    <Position X="128" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAACAAAAEAAAADCAAAIAAAAEBACIAAgAAE=</HashCode>
+      <FileName>Domain\Orders\GiftCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.GiftCardExtensions" Collapsed="true">
+    <Position X="244.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAQAAA=</HashCode>
+      <FileName>Domain\Orders\GiftCardExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.GiftCardUsageHistory" Collapsed="true">
+    <Position X="152.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAABAAAEAAAAAAAAAAAgAAAAAAAAAAAIA=</HashCode>
+      <FileName>Domain\Orders\GiftCardUsageHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.Order" Collapsed="true">
+    <Position X="164" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oZMAwRIAeAECBNMkgFAAMQgSSCjIwRKYRCAAAASFAIU=</HashCode>
+      <FileName>Domain\Orders\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderAverageReportLine" Collapsed="true">
+    <Position X="239.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Orders\OrderAverageReportLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderAverageReportLineSummary" Collapsed="true">
+    <Position X="241.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAAkBAAAAAAQABAAAAACEBAAAAAACAA=</HashCode>
+      <FileName>Domain\Orders\OrderAverageReportLineSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderByCountryReportLine" Collapsed="true">
+    <Position X="243" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAQABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\OrderByCountryReportLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderItem" Collapsed="true">
+    <Position X="224.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAAAAABgCADACASIAAAEEAABCAAAJQQAAgAAAAgA=</HashCode>
+      <FileName>Domain\Orders\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderNote" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAAAAAAAEAAAAAAEABAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Domain\Orders\OrderNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.OrderSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACIAACCAAEAAAQAQAAAHAAIERAABAAAAQACAAEA=</HashCode>
+      <FileName>Domain\Orders\OrderSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.RecurringPayment" Collapsed="true">
+    <Position X="53.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAAAAEAAEEiyFEAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\RecurringPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.RecurringPaymentHistory" Collapsed="true">
+    <Position X="71.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAQEIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\RecurringPaymentHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.ReturnRequest" Collapsed="true">
+    <Position X="83" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAABAAAAABBAAFAAEAAAAAQAABIAAAAAgEAAAAA=</HashCode>
+      <FileName>Domain\Orders\ReturnRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.ShoppingCartItem" Collapsed="true">
+    <Position X="107.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAECAQAAAAAAACFAAUAAEAEAAAAAIBIIAAAAkAAAAAA=</HashCode>
+      <FileName>Domain\Orders\ShoppingCartItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Orders.ShoppingCartSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="234.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAFAAAgCAAIEBEAAIAAEwAAACAAAAADACAAAAAAACQ=</HashCode>
+      <FileName>Domain\Orders\ShoppingCartSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Payments.PaymentSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="236" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Payments\PaymentSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Polls.Poll" Collapsed="true">
+    <Position X="166.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAQAAACAAAAAAACACAAAQAAiAAAAAAAAAAIAAAACI=</HashCode>
+      <FileName>Domain\Polls\Poll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Polls.PollAnswer" Collapsed="true">
+    <Position X="182" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAAIAAAAAAABEAAAQAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Polls\PollAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Polls.PollVotingRecord" Collapsed="true">
+    <Position X="195.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAQAEAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Polls\PollVotingRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Security.AclRecord" Collapsed="true">
+    <Position X="209" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAIAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Security\AclRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Security.DefaultPermissionRecord" Collapsed="true">
+    <Position X="227.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Security\DefaultPermissionRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Security.PermissionRecord" Collapsed="true">
+    <Position X="33.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAECAA=</HashCode>
+      <FileName>Domain\Security\PermissionRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Security.SecuritySettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="239.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Security\SecuritySettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Seo.SeoSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="241.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIQAACAAAAAAAAIAKICgAAQAAAAAQAAAACAAg=</HashCode>
+      <FileName>Domain\Seo\SeoSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Seo.UrlRecord" Collapsed="true">
+    <Position X="98.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAEAAAAAAAAgAAAAABAAAAAAQAAAA=</HashCode>
+      <FileName>Domain\Seo\UrlRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.DeliveryDate" Collapsed="true">
+    <Position X="119" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\DeliveryDate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShipmentSentEvent" Collapsed="true">
+    <Position X="244.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShipmentDeliveredEvent" Collapsed="true">
+    <Position X="243" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.Shipment" Collapsed="true">
+    <Position X="155" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAEAAAAAAAIAAAAAAEAAAAEAAAAQAAAAGAAAAAgAAAA=</HashCode>
+      <FileName>Domain\Shipping\Shipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShipmentItem" Collapsed="true">
+    <Position X="168.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAABAAAAAAAAAAAAQAAAEAAAAAgAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\ShipmentItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShippingMethod" Collapsed="true">
+    <Position X="184.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABgAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\ShippingMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShippingOption" Collapsed="true">
+    <Position X="227.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAABAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\ShippingOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShippingOptionTypeConverter" Collapsed="true">
+    <Position X="230.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\ShippingOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShippingOptionListTypeConverter" Collapsed="true">
+    <Position X="229" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\ShippingOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.ShippingSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCgAAgIAAQAAAAAAgIAAAAAABAgEAAAAAAAACBBA=</HashCode>
+      <FileName>Domain\Shipping\ShippingSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Shipping.Warehouse" Collapsed="true">
+    <Position X="42.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Shipping\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.StoreInformationSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="239.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACQAADBAAAAgAAAAAAAAAAAAAgCCAAAgAA=</HashCode>
+      <FileName>Domain\StoreInformationSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Stores.Store" Collapsed="true">
+    <Position X="85.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAABAAAoAACAAQAAAAAEAAACAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Stores\Store.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Stores.StoreExtensions" Collapsed="true">
+    <Position X="237.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Stores\StoreExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Stores.StoreMapping" Collapsed="true">
+    <Position X="110" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAEAAAAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Domain\Stores\StoreMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Tasks.ScheduleTask" Collapsed="true">
+    <Position X="121.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAIAABAAAAAQAAAAAAAAAASABAAAAAAA=</HashCode>
+      <FileName>Domain\Tasks\ScheduleTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Tax.TaxCategory" Collapsed="true">
+    <Position X="141.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Tax\TaxCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Domain.Tax.TaxSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="227.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYgQAQCFUIAAAAQCAAIAAIAAAEAAAAEQABoAgQAAA=</HashCode>
+      <FileName>Domain\Tax\TaxSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Topics.Topic" Collapsed="true">
+    <Position X="197.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEABAAAAAEAAAAABAAAAQAAAAAACAggAAABAAEA=</HashCode>
+      <FileName>Domain\Topics\Topic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Vendors.Vendor" Collapsed="true">
+    <Position X="213.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAACAoAAAAAAAAEAQQAAAAAAAgCAgAEABAAAA=</HashCode>
+      <FileName>Domain\Vendors\Vendor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Domain.Vendors.VendorSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="229" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Vendors\VendorSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Events.EntityDeleted&lt;T&gt;" Collapsed="true">
+    <Position X="236" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\EntityDeleted.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Events.EntityInserted&lt;T&gt;" Collapsed="true">
+    <Position X="237.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\EntityInserted.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Events.EntityUpdated&lt;T&gt;" Collapsed="true">
+    <Position X="241.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\EntityUpdated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.Extensions" Collapsed="true">
+    <Position X="244.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Fakes\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakeHttpContext" Collapsed="true">
+    <Position X="230.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCABBAARACSASQABAAACAABAAwAAQACAAAAAAAEA=</HashCode>
+      <FileName>Fakes\FakeHttpContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakeHttpRequest" Collapsed="true">
+    <Position X="232.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAARAAQgCAAQAIAICALhCAQAAAAQCYAJABEAAAA=</HashCode>
+      <FileName>Fakes\FakeHttpRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakeHttpResponse" Collapsed="true">
+    <Position X="234.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQAAAAAAAAAAACCAAAAAAAAIAAIBAEAAAA=</HashCode>
+      <FileName>Fakes\FakeHttpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakeHttpSessionState" Collapsed="true">
+    <Position X="236" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABACCAAABAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Fakes\FakeHttpSessionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakeIdentity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="237.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAQgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fakes\FakeIdentity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Fakes.FakePrincipal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="239.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAABA=</HashCode>
+      <FileName>Fakes\FakePrincipal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Html.BBCodeHelper" Collapsed="true">
+    <Position X="234.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAABAAgACAIBA=</HashCode>
+      <FileName>Html\BBCodeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.HtmlHelper" Collapsed="true">
+    <Position X="229" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAABAAASAAAAAAAAAAAAAAAAAIAAAgAAFAAAAAAEAA=</HashCode>
+      <FileName>Html\HtmlHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.ResolveLinksHelper" Collapsed="true">
+    <Position X="234.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAEAAAAAAEAAAAABAAAAAAAEA=</HashCode>
+      <FileName>Html\ResolveLinksHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.CLikeFormat" Collapsed="true">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Html\CodeFormatter\CLikeFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.CodeFormat" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAABQAAAAAAAQAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\CodeFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.CodeFormatHelper" Collapsed="true">
+    <Position X="229" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAACAAAAAAIAAAAAAAAAAAEAgAAAAAAAAAAg=</HashCode>
+      <FileName>Html\CodeFormatter\CodeFormatHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.CSharpFormat" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\CSharpFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.HighlightOptions" Collapsed="true">
+    <Position X="227.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAQIEAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Html\CodeFormatter\HighlightOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.HtmlFormat" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAQAAAQAAAAAAAAAAACBAAAAAAAAA=</HashCode>
+      <FileName>Html\CodeFormatter\HtmlFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.JavaScriptFormat" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\JavaScriptFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.MshFormat" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\MshFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.SourceFormat" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAAAAGABAEAAYAAIAQAgAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Html\CodeFormatter\SourceFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.TsqlFormat" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAABAAAAAAAAQAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\TsqlFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Html.CodeFormatter.VisualBasicFormat" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAABAAAAAAAAQAAAAAACAAAAgAA=</HashCode>
+      <FileName>Html\CodeFormatter\VisualBasicFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.AppDomainTypeFinder" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAQAAAAAAIAAAAAIAQQAIACEAAEGAAAABoAAE=</HashCode>
+      <FileName>Infrastructure\AppDomainTypeFinder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.EngineContext" Collapsed="true">
+    <Position X="234.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Infrastructure\EngineContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.NopEngine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="244.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABACBAQAAAAAAAAAAQAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\NopEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.SingletonList&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.SingletonDictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.Singleton" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.WebAppTypeFinder" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAACIgQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\WebAppTypeFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Infrastructure.DependencyManagement.ContainerManager" Collapsed="true">
+    <Position X="234.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQAQAAACAACAAAAAAACAAAAAAAAAAAAEAgQAAAAA=</HashCode>
+      <FileName>Infrastructure\DependencyManagement\ContainerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.BasePlugin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="232.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugins\BasePlugin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Plugins.OfficialFeedCategory" Collapsed="true">
+    <Position X="232.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugins\OfficialFeedCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.OfficialFeedManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="234.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Plugins\OfficialFeedManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Plugins.OfficialFeedPlugin" Collapsed="true">
+    <Position X="236" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAQAAAAAAAAAAQAAAAAAAAACAAAAAAACAA=</HashCode>
+      <FileName>Plugins\OfficialFeedPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.OfficialFeedVersion" Collapsed="true">
+    <Position X="237.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugins\OfficialFeedVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.PluginDescriptor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="241.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAARMAAAAAAAAQEgAAAAAEAQAAAAICAQgAQAAAAAAA=</HashCode>
+      <FileName>Plugins\PluginDescriptor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Plugins.PluginExtensions" Collapsed="true">
+    <Position X="243" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Plugins\PluginExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.PluginFileParser" Collapsed="true">
+    <Position X="244.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIBAA=</HashCode>
+      <FileName>Plugins\PluginFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Core.Plugins.PluginFinder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="227.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUADAAAEAAAAAAAAIAASAAAAAAgAAAAAAQAI=</HashCode>
+      <FileName>Plugins\PluginFinder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Core.Plugins.PluginManager" Collapsed="true">
+    <Position X="229" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEBAEAAgAAAAEQAAAABAAACEIIgAIAAAAEAgAAAAAIA=</HashCode>
+      <FileName>Plugins\PluginManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Nop.Core.IPagedList&lt;T&gt;" Collapsed="true">
+    <Position X="241.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABAAAAAAAEAAUAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>IPagedList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.IStoreContext" Collapsed="true">
+    <Position X="234.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStoreContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.IWebHelper" Collapsed="true">
+    <Position X="239.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAoAAACAAQAAAIAAIIAAABAAAKAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>IWebHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.IWorkContext" Collapsed="true">
+    <Position X="241.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAQAAEAAAAAAACAAAAAAAEgAAgAAAAAA=</HashCode>
+      <FileName>IWorkContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Caching.ICacheManager" Collapsed="true">
+    <Position X="229" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABABAAAAABAAAAAAAAAAAACAAAABAAAA=</HashCode>
+      <FileName>Caching\ICacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Configuration.ISettings" Collapsed="true">
+    <Position X="229" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\ISettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Data.IDataProvider" Collapsed="true">
+    <Position X="230.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAQAAAAAA=</HashCode>
+      <FileName>Data\IDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Data.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="227.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAQAAAAAEAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>Data\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Domain.Localization.ILocalizedEntity" Collapsed="true">
+    <Position X="236" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Localization\ILocalizedEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Domain.Localization.ILocalizedEnum" Collapsed="true">
+    <Position X="237.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Localization\ILocalizedEnum.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Domain.Security.IAclSupported" Collapsed="true">
+    <Position X="227.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Security\IAclSupported.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Domain.Seo.ISlugSupported" Collapsed="true">
+    <Position X="230.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Seo\ISlugSupported.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Domain.Stores.IStoreMappingSupported" Collapsed="true">
+    <Position X="236" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Stores\IStoreMappingSupported.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Infrastructure.IEngine" Collapsed="true">
+    <Position X="234.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Infrastructure.IStartupTask" Collapsed="true">
+    <Position X="232.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\IStartupTask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Infrastructure.ITypeFinder" Collapsed="true">
+    <Position X="237.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Infrastructure\ITypeFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Infrastructure.DependencyManagement.IDependencyRegistrar" Collapsed="true">
+    <Position X="232.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\DependencyManagement\IDependencyRegistrar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Plugins.IOfficialFeedManager" Collapsed="true">
+    <Position X="239.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Plugins\IOfficialFeedManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Plugins.IPlugin" Collapsed="true">
+    <Position X="243" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plugins\IPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Core.Plugins.IPluginFinder" Collapsed="true">
+    <Position X="244.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAAEAAAAAAAAIAACAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Plugins\IPluginFinder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Nop.Core.Domain.Catalog.AttributeControlType" Collapsed="true">
+    <Position X="227.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABIAAIAAAAAAAEAAAAAABAIAAAAAAACAAAAAQA=</HashCode>
+      <FileName>Domain\Catalog\AttributeControlType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.AttributeValueType" Collapsed="true">
+    <Position X="229" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\AttributeValueType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.BackorderMode" Collapsed="true">
+    <Position X="230.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\BackorderMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.DownloadActivationType" Collapsed="true">
+    <Position X="239.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\DownloadActivationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.GiftCardType" Collapsed="true">
+    <Position X="229" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\GiftCardType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.LowStockActivity" Collapsed="true">
+    <Position X="234.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\LowStockActivity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.ManageInventoryMethod" Collapsed="true">
+    <Position X="236" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ManageInventoryMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.ProductSortingEnum" Collapsed="true">
+    <Position X="227.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAABAkAAAAAEAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductSortingEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.ProductType" Collapsed="true">
+    <Position X="229" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Domain\Catalog\ProductType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.RecurringProductCyclePeriod" Collapsed="true">
+    <Position X="230.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEQAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Catalog\RecurringProductCyclePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.RentalPricePeriod" Collapsed="true">
+    <Position X="232.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAEQAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Catalog\RentalPricePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Catalog.SpecificationAttributeType" Collapsed="true">
+    <Position X="239.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Catalog\SpecificationAttributeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Common.FulltextSearchMode" Collapsed="true">
+    <Position X="227.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\FulltextSearchMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Customers.CustomerLoginResults" Collapsed="true">
+    <Position X="232.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAEAAEAAAEAAAAAAAAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>Domain\Customers\CustomerLoginResults.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Customers.CustomerNameFormat" Collapsed="true">
+    <Position X="234.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAIAMAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\CustomerNameFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Customers.PasswordFormat" Collapsed="true">
+    <Position X="241.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAA=</HashCode>
+      <FileName>Domain\Customers\PasswordFormat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Customers.UserRegistrationType" Collapsed="true">
+    <Position X="244.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAIAAACAgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Customers\UserRegistrationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Discounts.DiscountLimitationType" Collapsed="true">
+    <Position X="236" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Domain\Discounts\DiscountLimitationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Discounts.DiscountType" Collapsed="true">
+    <Position X="237.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAgABAAEAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Domain\Discounts\DiscountType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Forums.EditorType" Collapsed="true">
+    <Position X="241.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Forums\EditorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Forums.ForumSearchType" Collapsed="true">
+    <Position X="243" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAA=</HashCode>
+      <FileName>Domain\Forums\ForumSearchType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Forums.ForumTopicType" Collapsed="true">
+    <Position X="244.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Domain\Forums\ForumTopicType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Logging.LogLevel" Collapsed="true">
+    <Position X="232.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Domain\Logging\LogLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Media.PictureType" Collapsed="true">
+    <Position X="244.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Media\PictureType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Orders.OrderStatus" Collapsed="true">
+    <Position X="237.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAAACAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Domain\Orders\OrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Orders.ReturnRequestStatus" Collapsed="true">
+    <Position X="234.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABBCAAAIAAAAAAAAEAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Domain\Orders\ReturnRequestStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Orders.ShoppingCartType" Collapsed="true">
+    <Position X="237.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Orders\ShoppingCartType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Payments.PaymentStatus" Collapsed="true">
+    <Position X="243" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAQgAAAAAAAAAIAAAAAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>Domain\Payments\PaymentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Seo.PageTitleSeoAdjustment" Collapsed="true">
+    <Position X="239.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Domain\Seo\PageTitleSeoAdjustment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Seo.WwwRequirement" Collapsed="true">
+    <Position X="229" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Seo\WwwRequirement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Shipping.ShippingStatus" Collapsed="true">
+    <Position X="236" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAkAAAAAAAAAAAIAAAACAAAAAAAAAAE=</HashCode>
+      <FileName>Domain\Shipping\ShippingStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Tax.TaxBasedOn" Collapsed="true">
+    <Position X="241.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Tax\TaxBasedOn.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Tax.TaxDisplayType" Collapsed="true">
+    <Position X="243" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Tax\TaxDisplayType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Domain.Tax.VatNumberStatus" Collapsed="true">
+    <Position X="227.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAABA=</HashCode>
+      <FileName>Domain\Tax\VatNumberStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Core.Plugins.LoadPluginsMode" Collapsed="true">
+    <Position X="230.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Plugins\LoadPluginsMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

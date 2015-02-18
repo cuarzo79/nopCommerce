@@ -23,7 +23,8 @@ namespace Nop.Core.Tests.Caching
             cacheManager.Set("some_key_1", 3, int.MaxValue);
             cacheManager.Set("some_key_2", 4, int.MaxValue);
 
-            cacheManager.IsSet("some_key_1").ShouldEqual(true);
+            //cacheManager.IsSet("some_key_1").ShouldEqual(true);
+            Assert.That(cacheManager.IsSet("some_key_1"), Is.EqualTo(true));
             cacheManager.IsSet("some_key_3").ShouldEqual(false);
         }
 

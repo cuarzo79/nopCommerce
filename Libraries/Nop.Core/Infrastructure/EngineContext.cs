@@ -35,7 +35,7 @@ namespace Nop.Core.Infrastructure
         #endregion
 
         #region Methods
-
+         
         /// <summary>
         /// Initializes a static instance of the Nop factory.
         /// </summary>

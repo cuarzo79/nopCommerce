@@ -107,7 +107,7 @@
     <Compile Include="Infrastructure\DependencyManagement\AutofacTests.cs" />
     <Compile Include="CommonHelperTests.cs" />
     <Compile Include="WebHelperTests.cs" />
-    <Compile Include="ComponentModel\GenericListTypeConverterTests.cs" />
+    <Compile Include="ComponentModel\GenericListTypeConverterTest.cs" />
     <Compile Include="ExtensionsTests.cs" />
     <Compile Include="Domain\Blogs\BlogPostTests.cs" />
     <Compile Include="Domain\Catalog\ProductExtensionTests.cs" />

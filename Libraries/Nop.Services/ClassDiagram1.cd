@@ -1,0 +1,2182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nop.Services.Affiliates.AffiliateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAoAAEAAAAgAAAAIAAAAAQI=</HashCode>
+      <FileName>Affiliates\AffiliateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.AuthorizationResult" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Authentication\External\AuthorizationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.AuthorizeState" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAAAAAAAAQAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Authentication\External\AuthorizeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.ExternalAuthorizer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQFAEAAAAIIgQIQEAAAiAAAAAAAAAAAAQAAECQ=</HashCode>
+      <FileName>Authentication\External\ExternalAuthorizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.ExternalAuthorizerHelper" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAAAAAAAAAAABAgAAAAYAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\ExternalAuthorizerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.OpenAuthenticationParameters" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAABAAAABAAQAAAAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>Authentication\External\OpenAuthenticationParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.OpenAuthenticationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIRAIAgAAAAAIAIAQAAABFAAAAAAAAiA=</HashCode>
+      <FileName>Authentication\External\OpenAuthenticationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.OpenAuthenticationExtensions" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\OpenAuthentificationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.UserClaims" Collapsed="true">
+    <Position X="8.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAABAAAACAAAAAQAAAAAAAAAAAAABAAAAEQ=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.ImageClaims" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAIgAAgAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.MediaClaims" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.WebClaims" Collapsed="true">
+    <Position X="15.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAAAAAAQAAAAAhAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.TelephoneClaims" Collapsed="true">
+    <Position X="18.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAgAAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.InstantMessagingClaims" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAQEAAAAAAAAgAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.CompanyClaims" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.AddressClaims" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAAAAAAAAAAIIAAAAAAAgBIACAAAAAAABAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.PersonClaims" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.NameClaims" Collapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAAYAAAAAAAAACAAAAAAAAACASAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.PreferenceClaims" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.ContactClaims" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAgAAQAAAAAAAAAAACAQAAIAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.External.BirthDateClaims" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABAAACAAAAAAAAAAAAAAgAAAEAAAEAAAAAAA=</HashCode>
+      <FileName>Authentication\External\UserClaims.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Authentication.FormsAuthenticationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCEAAACAAAAAAAACAAIAAAAAAAAAIAAAABAEAA=</HashCode>
+      <FileName>Authentication\FormsAuthenticationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Blogs.BlogExtensions" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Blogs\BlogExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Blogs.BlogService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARCAAEAAAABgAEAQAAAAgEAAAQEAAQAAAAAAEAA=</HashCode>
+      <FileName>Blogs\BlogService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Caching.ClearCacheTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caching\ClearCacheTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.BackInStockSubscriptionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABACCAAAAAgAAAEAACAkAAAAAAAAkAAAAAAAA=</HashCode>
+      <FileName>Catalog\BackInStockSubscriptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.CategoryExtensions" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Catalog\CategoryExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.CategoryService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECCAUBCAIQIQAAAAAABAJQBACMAAQAECAQBICIKAAAk=</HashCode>
+      <FileName>Catalog\CategoryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.CategoryTemplateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAAAAAAEAAAAEAAAACAAAIAAAAEAAA=</HashCode>
+      <FileName>Catalog\CategoryTemplateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.CompareProductsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEwAAAAAACAAAAAACAAAAAAAAAAAAQAAAAQAAAI=</HashCode>
+      <FileName>Catalog\CompareProductsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.CopyProductService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAQAAAIBIEBEAAAAAAAAAAAgAAQAAAAYA=</HashCode>
+      <FileName>Catalog\CopyProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ManufacturerExtensions" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\ManufacturerExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.ManufacturerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAEAALIAAQACAAABAAAAAAKEAAABEIAUAAAAKQIUA=</HashCode>
+      <FileName>Catalog\ManufacturerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ManufacturerTemplateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAAAAAAAAAAAAAGECAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Catalog\ManufacturerTemplateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.PriceCalculationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQIAQAQUAAAAAIAAAAICJAEQAAAAQIAAACAAAA=</HashCode>
+      <FileName>Catalog\PriceCalculationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.PriceFormatter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAABgAIAAAAAAAACAAQIAQAAAAMAAAACAA=</HashCode>
+      <FileName>Catalog\PriceFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductAttributeExtensions" Collapsed="true">
+    <Position X="25.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\ProductAttributeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductAttributeFormatter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQQBAAAIAAAAABIAAAQACAAEIAAAAAAACAAAAAA=</HashCode>
+      <FileName>Catalog\ProductAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductAttributeParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAACAAAAAAAAIQAwADAAAAAUAAAAA=</HashCode>
+      <FileName>Catalog\ProductAttributeParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAyQEAEQBAAEABgiUAIAAJACEEAAgAQBgCBCAiAAaA=</HashCode>
+      <FileName>Catalog\ProductAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductExtensions" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECBQAAAAAAAAAAAACAAAAAQAAAAAAQAAAAIEEAAGA=</HashCode>
+      <FileName>Catalog\ProductExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAy5iEABMYVeIABJwMokBSqAiEBAAAULAUAQCAKAJRY=</HashCode>
+      <FileName>Catalog\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductTagService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIBAAAAAAAFAAAAYAAAAAAIAEAAAAAABAABQAGAEAA=</HashCode>
+      <FileName>Catalog\ProductTagService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.ProductTemplateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAAAAAAAAAAAkAAAIAEAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Catalog\ProductTemplateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.RecentlyViewedProductsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAABAQAAAACAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Catalog\RecentlyViewedProductsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.RoundingHelper" Collapsed="true">
+    <Position X="24" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\RoundingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.SpecificationAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgJACQAAAAAACAAAAEgAAgAEkKAAAAAAABCACCAIgA=</HashCode>
+      <FileName>Catalog\SpecificationAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Catalog.TierPriceExtensions" Collapsed="true">
+    <Position X="20.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAA=</HashCode>
+      <FileName>Catalog\TierPriceExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Catalog.Cache.PriceCacheEventConsumer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAQAAAAAAACAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Catalog\Cache\PriceCacheEventConsumer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Cms.WidgetExtensions" Collapsed="true">
+    <Position X="17" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Cms\WidgetExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Cms.WidgetService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAIAAAAAAAAAAAAAAAgAAAAAAAAIAAQAI=</HashCode>
+      <FileName>Cms\WidgetService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.AddressAttributeExtensions" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AddressAttributeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Common.AddressAttributeFormatter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAACAAIAAA=</HashCode>
+      <FileName>Common\AddressAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.AddressAttributeParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAQAAAAAAAAAAAAQAAAAAAAAIAABAAAAAAAIgAA=</HashCode>
+      <FileName>Common\AddressAttributeParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.AddressAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAIAEAAAUABAgAAAAAAAAECIAQAAAQEAIACEIQA=</HashCode>
+      <FileName>Common\AddressAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.AddressExtensions" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Common\AddressExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Common.AddressService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABgBAAAAAAgAAAEAgCEAAAAgAAIEAAACIFAA=</HashCode>
+      <FileName>Common\AddressService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.FulltextService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAAAAQAAAAAAEAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>Common\FulltextService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.GenericAttributeExtensions" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\GenericAttributeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Common.GenericAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAIAAAAAAAAIAAAAAEAAQBCAAAAAAACCCAA=</HashCode>
+      <FileName>Common\GenericAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.KeepAliveTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\KeepAliveTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.MaintenanceService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAAAAQAAAIAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MaintenanceService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.PdfService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQwQAAAYAIAAAAYFBABiCAgIIAAAASAOBAAAAQI=</HashCode>
+      <FileName>Common\PdfService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Common.SearchTermService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAkAAAEAAEAgAAAAIAAAhAAA=</HashCode>
+      <FileName>Common\SearchTermService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Configuration.SettingExtensions" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\SettingExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Configuration.SettingService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAIBgBEAAAAEAANAAAAQAAAgECAigAAA=</HashCode>
+      <FileName>Configuration\SettingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.ChangePasswordRequest" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAAAAABAAAAAAAEAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Customers\ChangePasswordRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerAttributeExtensions" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\CustomerAttributeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerAttributeParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAaAAAAQAAAAEAAQAAAAAAAAAAABAAAAAAQAAAA=</HashCode>
+      <FileName>Customers\CustomerAttributeParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIQAAAABCIAAAQkCBAAgFAAAgAEIAAAEACACAA=</HashCode>
+      <FileName>Customers\CustomerAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerExtensions" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIgAACACAAAAA=</HashCode>
+      <FileName>Customers\CustomerExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerRegistrationRequest" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAQAAAAAAAAAAAAICAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\CustomerRegistrationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerRegistrationResult" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Customers\CustomerRegistrationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerRegistrationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAA5AAIAAgAAAABAAAAAIAAAAAAAAACAAAIAAEgA=</HashCode>
+      <FileName>Customers\CustomerRegistrationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerReportService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAIAAEAgAAAAAAABBAAAAA=</HashCode>
+      <FileName>Customers\CustomerReportService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.CustomerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBwBCMAQAFAAQARAAhAYACCEBBBhEIYACEBBKAEgk=</HashCode>
+      <FileName>Customers\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.DeleteGuestsTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\DeleteGuestsTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Customers.PasswordChangeResult" Collapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Customers\PasswordChangeResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Directory.CountryService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCIAAAACQAICAAAAAAAAAAEEQgAEAwQAAAACAQCA=</HashCode>
+      <FileName>Directory\CountryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Directory.CurrencyService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAQAAIgIKAAAAgEBBAAAEAEgCAgAAAkAACOgAA=</HashCode>
+      <FileName>Directory\CurrencyService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Directory.GeoLookupService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAEAAAAQIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directory\GeoLookupService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Directory.MeasureService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oARAEAEAABSCEgAAiMYBABAIAEAAFCAAAABgAACCAAA=</HashCode>
+      <FileName>Directory\MeasureService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Directory.StateProvinceService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAgAAAAAAgAACAAAAEEQAAAAgAAAAAAiAAAA=</HashCode>
+      <FileName>Directory\StateProvinceService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Directory.UpdateExchangeRateTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAUAAAAAAAAAAAAAIAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Directory\UpdateExchangeRateTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Discounts.CheckDiscountRequirementRequest" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Discounts\CheckDiscountRequirementRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Discounts.DiscountExtensions" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Discounts\DiscountExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Discounts.DiscountService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAUEASAQIAAgARACAAAAAMAACABAgA4AAQiAAAA=</HashCode>
+      <FileName>Discounts\DiscountService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Events.EventPublisher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Events\EventPublisher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Events.EventPublisherExtensions" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Events\EventPublisherExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Events.SubscriptionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SubscriptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.ExportImport.ExportManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQIAAohAAAAQAAAAAAABKAAAAAAAAAAAgAAEAARAQg=</HashCode>
+      <FileName>ExportImport\ExportManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.ExportImport.ImportManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAgAQQAAQAAAAAAgACAAAEAAQAkAAAAAAA4A=</HashCode>
+      <FileName>ExportImport\ImportManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Forums.ForumExtensions" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAQAAABAIAAAAAAAAAAEAAABBAAAAAAAACA=</HashCode>
+      <FileName>Forums\ForumExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Forums.ForumService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IKJUgEaFBACQAAAQoAoIQAAMGGgAABcQOIiCJwCgGIE=</HashCode>
+      <FileName>Forums\ForumService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Helpers.DateTimeHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEEAAAAAEAAAAgAAAAGAAAAAAAAEAgAAAAIAE=</HashCode>
+      <FileName>Helpers\DateTimeHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Helpers.DateTimeSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DateTimeSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Helpers.UserAgentHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAQAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\UserAgentHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Installation.CodeFirstInstallationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAgxAsJAIEUAEkMIBkYJgACCSDCgQqRA4LBAkMNEI=</HashCode>
+      <FileName>Installation\CodeFirstInstallationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Installation.SqlFileInstallationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQQAAAAAAAAAAAAAAAAAAAAQAAAAAAwABQgoAAA=</HashCode>
+      <FileName>Installation\SqlFileInstallationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Localization.LanguageService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACAAAAAkAAAAABAAAgEAAAAAAAYAAQASIAAA=</HashCode>
+      <FileName>Localization\LanguageService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Localization.LocalizationExtensions" Collapsed="true">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIABBQAAABAACAAAAADAIAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Localization\LocalizationExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Localization.LocalizationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABCAACAAAkCAAAQCAEAAAAqECAIgAAQQAACACAAAA=</HashCode>
+      <FileName>Localization\LocalizationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Localization.LocalizedEntityService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQAKABAAAAAABIAAAAgAAAAAgAAAgCgACAAIA=</HashCode>
+      <FileName>Localization\LocalizedEntityService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Logging.ClearLogTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\ClearLogTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Logging.CustomerActivityService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAQAAAAkAAFAQAAAAnAACABAAgAAIQAAAACAEAA=</HashCode>
+      <FileName>Logging\CustomerActivityService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Logging.DefaultLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAJAQAAAAAEABAAQAEiAAAAQAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\DefaultLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Logging.LoggingExtensions" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Logging\LoggingExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Logging.NullLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAEiAAAAQAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\NullLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Media.DownloadService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAACAgAAAgAQAAAABEAAAAAAE=</HashCode>
+      <FileName>Media\DownloadService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Media.Extensions" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Media\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Media.PictureService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAUAAEKhAAAFIEQBQgABAIGAAAQgIACAAAAIBBAI=</HashCode>
+      <FileName>Media\PictureService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.CampaignService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAASAAAAQAABgAAIBECAAAAAAAAFAAAAQQA=</HashCode>
+      <FileName>Messages\CampaignService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.EmailAccountService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAgAAAAAEAAAAAAEARAAIAAAAA=</HashCode>
+      <FileName>Messages\EmailAccountService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.EmailSender" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\EmailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.EventPublisherExtensions" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Messages\EventPublisherExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Messages.MessageTemplateService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAACAAAAAAASAAAAUBAAgAMAAAAEAAQAIQACBAAA=</HashCode>
+      <FileName>Messages\MessageTemplateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.MessageTokenProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAgwQAACYEAAAABI0AABhCUEEIBQAASIIUhgAABI=</HashCode>
+      <FileName>Messages\MessageTokenProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.NewsLetterSubscriptionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQBAAAABACQAAAAAAAAAEAAABAAAAAQAAAAAEA=</HashCode>
+      <FileName>Messages\NewsLetterSubscriptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.QueuedEmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAkAAQAQAAAAAAAAEAAAgAAAACoAAAABAA=</HashCode>
+      <FileName>Messages\QueuedEmailService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.QueuedMessagesSendTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAgAAAIACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\QueuedMessagesSendTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.Token" Collapsed="true">
+    <Position X="22.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAAQEAACAAAAAAAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>Messages\Token.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Messages.Tokenizer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Messages\Tokenizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Messages.WorkflowMessageService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DCAAACkEQAAQEAAAARhEjygkBEGAMBIKCEMBAAAAABg=</HashCode>
+      <FileName>Messages\WorkflowMessageService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.News.NewsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAABAAAAAAAlgAEAAAAEAAQAAACKAAAA=</HashCode>
+      <FileName>News\NewsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.AppliedGiftCard" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\AppliedGiftCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Orders.CheckoutAttributeExtensions" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Orders\CheckoutAttributeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Orders.CheckoutAttributeFormatter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABQABAAAIAAAAABAAAAAACAACIAAAAAAACAAAAAA=</HashCode>
+      <FileName>Orders\CheckoutAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.CheckoutAttributeParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAEAAACAAAAiAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\CheckoutAttributeParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.CheckoutAttributeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAFAQAgAAgAAAFAAEABkAEAECAAQAAQAAIBACAAAA=</HashCode>
+      <FileName>Orders\CheckoutAttributeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.GiftCardService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAAAAAAiAABAIAAAEAgAQAIAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\GiftCardService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.OrderExtensions" Collapsed="true">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAEAAAAAAAAABgAACEAAAIAAAAAAAAAgA=</HashCode>
+      <FileName>Orders\OrderExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Orders.OrderProcessingService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQMANQQFAGAJBAAAhAMMEGR4qFCBIHgLCHAdCIAKJhQ=</HashCode>
+      <FileName>Orders\OrderProcessingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.OrderReportService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAARoAAAAAEAAEAACAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Orders\OrderReportService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.OrderService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAAgAGBMAAEAAAAQEAAAACACWAMAAACAkAABBAAABg=</HashCode>
+      <FileName>Orders\OrderService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.OrderTotalCalculationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACBAAFAABUAAAAAgAAAARkChAEIAgAAUAICAQCAgA=</HashCode>
+      <FileName>Orders\OrderTotalCalculationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Orders.PlaceOrderResult" Collapsed="true">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAQAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Orders\PlaceOrderResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Orders.ShoppingCartExtensions" Collapsed="true">
+    <Position X="18.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAhIAA=</HashCode>
+      <FileName>Orders\ShoppingCartExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Orders.ShoppingCartService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAQEgEQYABAABAJABAAICEAGIAAAACAACBCgCCI=</HashCode>
+      <FileName>Orders\ShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Payments.CancelRecurringPaymentRequest" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\CancelRecurringPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.CancelRecurringPaymentResult" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Payments\CancelRecurringPaymentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.CapturePaymentRequest" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\CapturePaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.CapturePaymentResult" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAgBACACAAAAAAAAgAAA=</HashCode>
+      <FileName>Payments\CapturePaymentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.PaymentExtensions" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\PaymentExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.PaymentService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQBIACAIEEAIKAgAAAAAAAkgQABAFFAAAAGABI=</HashCode>
+      <FileName>Payments\PaymentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Payments.PostProcessPaymentRequest" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\PostProcessPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.ProcessPaymentRequest" Collapsed="true">
+    <Position X="22.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAgSAAAAAAIAgAABAgEBAAAAAAAJEAAAAAAAAEAAA=</HashCode>
+      <FileName>Payments\ProcessPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.ProcessPaymentResult" Collapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAUGIAAAAAAAAQgDACACAAAAAAAAgAAA=</HashCode>
+      <FileName>Payments\ProcessPaymentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.RefundPaymentRequest" Collapsed="true">
+    <Position X="20.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\RefundPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.RefundPaymentResult" Collapsed="true">
+    <Position X="22.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAgAACAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Payments\RefundPaymentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.VoidPaymentRequest" Collapsed="true">
+    <Position X="11.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\VoidPaymentRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Payments.VoidPaymentResult" Collapsed="true">
+    <Position X="13.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAgAACAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Payments\VoidPaymentResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Polls.PollService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAKAAAAAEEAAAAAAAAkAIAEAAAiIAAAAAAAA=</HashCode>
+      <FileName>Polls\PollService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Properties.Settings" Collapsed="true">
+    <Position X="8.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Security.AclService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAVCAAAAAEAAAAACAAAAAgAACABAAAAAAQAAACKAAAA=</HashCode>
+      <FileName>Security\AclService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Security.EncryptionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAUAEAAAAAAAAAAAAAEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Security\EncryptionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Security.PermissionService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgQAAEAAAAgAADAEAAQICQAAAACAABCAgACAAAA=</HashCode>
+      <FileName>Security\PermissionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Security.StandardPermissionProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQCEAAxAYAACCAcEAwgEwoBCaBAhASABAQAFyBIAIlA=</HashCode>
+      <FileName>Security\StandardPermissionProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Seo.BaseSitemapGenerator" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAQAAAAAAIAAAAAAAAEAAAIA=</HashCode>
+      <FileName>Seo\BaseSitemapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Seo.SeoExtensions" Collapsed="true">
+    <Position X="4.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAAAgAAAAAAAAAAAAAAAAEAAABABAAAAAAAAA=</HashCode>
+      <FileName>Seo\SeoExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Seo.SitemapGenerator" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQAAQAAAAQQACAQEgAAQABAAAAAAQAAgAAAAAAAAg=</HashCode>
+      <FileName>Seo\SitemapGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nop.Services.Seo.UrlRecordService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARACAAAABAAAAAAAgAoCAAAggQAQAAAAAIIAACBAEE=</HashCode>
+      <FileName>Seo\UrlRecordService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Shipping.EventPublisherExtensions" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Shipping\EventPublisherExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Shipping.GetShippingOptionRequest" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAACAAAAAAAAAAKAAAAAAAAACABAAAAAAI=</HashCode>
+      <FileName>Shipping\GetShippingOptionRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Shipping.GetShippingOptionResponse" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Shipping\GetShippingOptionResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Shipping.ShipmentService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABACSBAAAAABAAAAAAAADAAEAIECAABAAAAAIAAAA=</HashCode>
+      <FileName>Shipping\ShipmentService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Shipping.ShippingExtensions" Collapsed="true">
+    <Position X="15.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAA=</HashCode>
+      <FileName>Shipping\ShippingExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Shipping.ShippingService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABCQkACAQIAQAAAZAAEgAIlAEJAAVABIRAEmAoJw=</HashCode>
+      <FileName>Shipping\ShippingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Shipping.Tracking.GeneralShipmentTracker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAEAAAAQA=</HashCode>
+      <FileName>Shipping\Tracking\GeneralShipmentTracker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Shipping.Tracking.ShipmentStatusEvent" Collapsed="true">
+    <Position X="13.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAAAAAAIAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Shipping\Tracking\ShipmentStatusEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Stores.StoreMappingService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEAQABAAAAAAAAACAAAAAAEghQAAACCABAA=</HashCode>
+      <FileName>Stores\StoreMappingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Stores.StoreService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAECAAAAAAAQAAAAAAAQAAEAAAAEAAAQAAAGACCA=</HashCode>
+      <FileName>Stores\StoreService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Tasks.ScheduleTaskService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAAAAAAAAAEAAAABAABAAAAAAAAAAACBAAAA=</HashCode>
+      <FileName>Tasks\ScheduleTaskService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Tasks.Task" Collapsed="true">
+    <Position X="10" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAIQABAAAQAQAAAAAAABAASAAAAAAAAA=</HashCode>
+      <FileName>Tasks\Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Tasks.TaskManager" Collapsed="true">
+    <Position X="11.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQACAQAQAAAAAAAAAAABAAAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>Tasks\TaskManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Tasks.TaskThread" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAACAAACAkAAAAAIAIQAAAAAAAAgAAAAAJAEAAAEI=</HashCode>
+      <FileName>Tasks\TaskThread.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Tax.CalculateTaxRequest" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Tax\CalculateTaxRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Tax.CalculateTaxResult" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Tax\CalculateTaxResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nop.Services.Tax.TaxCategoryService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAABIQABAAAAEAAAAAAAAASAACQBAA=</HashCode>
+      <FileName>Tax\TaxCategoryService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Tax.TaxService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgACAgAgAAJEAAAAAAAAEhGgACAgIgUAAIAAAAEAA=</HashCode>
+      <FileName>Tax\TaxService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Topics.TopicService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAAAAAAAABAAAAEACCAEAAQAAIACgAAA=</HashCode>
+      <FileName>Topics\TopicService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Nop.Services.Vendors.VendorService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAAAAAAAAAAAAAAAAEEABAAAAAAAAAEAAAQA=</HashCode>
+      <FileName>Vendors\VendorService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Nop.Services.Authentication.External.RegistrationDetails" Collapsed="true">
+    <Position X="3" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAg=</HashCode>
+      <FileName>Authentication\External\RegistrationDetails.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Nop.Services.Affiliates.IAffiliateService" Collapsed="true">
+    <Position X="11.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAoAAAAAAAgAAAAIAAAAAQA=</HashCode>
+      <FileName>Affiliates\IAffiliateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.External.IClaimsTranslator&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Authentication\External\IClaimsTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.External.IExternalAuthenticationMethod" Collapsed="true">
+    <Position X="18.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Authentication\External\IExternalAuthenticationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.External.IExternalAuthorizer" Collapsed="true">
+    <Position X="20.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\IExternalAuthorizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.External.IExternalProviderAuthorizer" Collapsed="true">
+    <Position X="22.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\External\IExternalProviderAuthorizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.External.IOpenAuthenticationService" Collapsed="true">
+    <Position X="10" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAIAgAAAAAAAIAQAAABFAAAAAAAAgA=</HashCode>
+      <FileName>Authentication\External\IOpenAuthenticationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Authentication.IAuthenticationService" Collapsed="true">
+    <Position X="13.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication\IAuthenticationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Blogs.IBlogService" Collapsed="true">
+    <Position X="17" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAABgAEAQAAAAgAAAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>Blogs\IBlogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IBackInStockSubscriptionService" Collapsed="true">
+    <Position X="15.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACCAAAAAgAAAAAACAgAAAAAAAAkAAAAAAAA=</HashCode>
+      <FileName>Catalog\IBackInStockSubscriptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.ICategoryService" Collapsed="true">
+    <Position X="20.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAUACAAQIAAAAAAAAAIAAAAIAAAAAAAABICIAAAAg=</HashCode>
+      <FileName>Catalog\ICategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.ICategoryTemplateService" Collapsed="true">
+    <Position X="22.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAAAAAAEAAAAAAAAACAAAIAAAAAAAA=</HashCode>
+      <FileName>Catalog\ICategoryTemplateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.ICompareProductsService" Collapsed="true">
+    <Position X="6.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAI=</HashCode>
+      <FileName>Catalog\ICompareProductsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.ICopyProductService" Collapsed="true">
+    <Position X="10" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\ICopyProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IManufacturerService" Collapsed="true">
+    <Position X="20.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAEAAJAAAAACAAABAAAAAAIAAAABAAAEAAAAAQAAA=</HashCode>
+      <FileName>Catalog\IManufacturerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IManufacturerTemplateService" Collapsed="true">
+    <Position X="22.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAACECAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Catalog\IManufacturerTemplateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IPriceCalculationService" Collapsed="true">
+    <Position X="6.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAQAAAAAAAAAAIAIAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\IPriceCalculationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IPriceFormatter" Collapsed="true">
+    <Position X="8.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAIAAAAAAAAAAAQAAQAAAAAAAAACAA=</HashCode>
+      <FileName>Catalog\IPriceFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductAttributeFormatter" Collapsed="true">
+    <Position X="10" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Catalog\IProductAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductAttributeParser" Collapsed="true">
+    <Position X="11.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAACAAAAAAAAIQAwADAAAAAUAAAAA=</HashCode>
+      <FileName>Catalog\IProductAttributeParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductAttributeService" Collapsed="true">
+    <Position X="13.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAwAEAAAAAAAABgCUAIAABACAEAAAAABACBAAAAAaA=</HashCode>
+      <FileName>Catalog\IProductAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductService" Collapsed="true">
+    <Position X="15.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAyogEAAEYBKIABBwIoAASqAAAAAAAQLAEAQAACAJRY=</HashCode>
+      <FileName>Catalog\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductTagService" Collapsed="true">
+    <Position X="17" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAAABAAAAAAAAAAAIAAAAAAAABAABAAEAAAA=</HashCode>
+      <FileName>Catalog\IProductTagService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IProductTemplateService" Collapsed="true">
+    <Position X="18.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAAAAAAAAAAAgAAAIAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Catalog\IProductTemplateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.IRecentlyViewedProductsService" Collapsed="true">
+    <Position X="22.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalog\IRecentlyViewedProductsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Catalog.ISpecificationAttributeService" Collapsed="true">
+    <Position X="15.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgJACAAAAAAACAAAAEAAAgAAgIAAAAAAABCACAAIgA=</HashCode>
+      <FileName>Catalog\ISpecificationAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Cms.IWidgetPlugin" Collapsed="true">
+    <Position X="15.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAAABA=</HashCode>
+      <FileName>Cms\IWidgetPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Cms.IWidgetService" Collapsed="true">
+    <Position X="17" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAQAA=</HashCode>
+      <FileName>Cms\IWidgetService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IAddressAttributeFormatter" Collapsed="true">
+    <Position X="4.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Common\IAddressAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IAddressAttributeParser" Collapsed="true">
+    <Position X="6.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAQAAAAAAAAIAABAAAAAAAAgAA=</HashCode>
+      <FileName>Common\IAddressAttributeParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IAddressAttributeService" Collapsed="true">
+    <Position X="8.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEABAgAAAAAAAAACIAAAAAQEAAAAEIQA=</HashCode>
+      <FileName>Common\IAddressAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IAddressService" Collapsed="true">
+    <Position X="10" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABABAAAAAAgAAAAAAAAAAAAgAAIAAAAAAFAA=</HashCode>
+      <FileName>Common\IAddressService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IFulltextService" Collapsed="true">
+    <Position X="25.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>Common\IFulltextService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IGenericAttributeService" Collapsed="true">
+    <Position X="3" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAAAAAAIAAAAAAAAQACAAAAAAAACAAA=</HashCode>
+      <FileName>Common\IGenericAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IMaintenanceService" Collapsed="true">
+    <Position X="18.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IMaintenanceService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IMiscPlugin" Collapsed="true">
+    <Position X="4.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Common\IMiscPlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.IPdfService" Collapsed="true">
+    <Position X="22.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Common\IPdfService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Common.ISearchTermService" Collapsed="true">
+    <Position X="25.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAEAgAAAAIAAAhAAA=</HashCode>
+      <FileName>Common\ISearchTermService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Configuration.ISettingService" Collapsed="true">
+    <Position X="3" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAIAgBAAAAAEAABAAAAAAAAAECAgAAAA=</HashCode>
+      <FileName>Configuration\ISettingService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Customers.ICustomerAttributeParser" Collapsed="true">
+    <Position X="17" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAKAAAAQAAAAAAAQAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\ICustomerAttributeParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Customers.ICustomerAttributeService" Collapsed="true">
+    <Position X="18.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAQAAAABAIAAAQgABAAgAAAAAAEAAAAEAAAAAA=</HashCode>
+      <FileName>Customers\ICustomerAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Customers.ICustomerRegistrationService" Collapsed="true">
+    <Position X="20.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAIAAgAAAABAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Customers\ICustomerRegistrationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Customers.ICustomerReportService" Collapsed="true">
+    <Position X="22.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customers\ICustomerReportService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Customers.ICustomerService" Collapsed="true">
+    <Position X="24" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQBAIAQABAAQABAABAIAACABABgEIIACEAAAAAAk=</HashCode>
+      <FileName>Customers\ICustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.ICountryService" Collapsed="true">
+    <Position X="11.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCIAAAACAAACAAAAAAAAAAAEQgAAAgAAAAAAAQAA=</HashCode>
+      <FileName>Directory\ICountryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.ICurrencyService" Collapsed="true">
+    <Position X="13.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAAAIgAKAAAAgEAAAAAAAAgAAgAAAgAAAOgAA=</HashCode>
+      <FileName>Directory\ICurrencyService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.IExchangeRateProvider" Collapsed="true">
+    <Position X="15.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directory\IExchangeRateProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.IGeoLookupService" Collapsed="true">
+    <Position X="4.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Directory\IGeoLookupService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.IMeasureService" Collapsed="true">
+    <Position X="24" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAEAAASCEAAAgEIAABAIAAAAFCAAAABgAAACAAA=</HashCode>
+      <FileName>Directory\IMeasureService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Directory.IStateProvinceService" Collapsed="true">
+    <Position X="17" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAgAAAAAAAAACAAAAEAAAAAAgAAAAAAgAAAA=</HashCode>
+      <FileName>Directory\IStateProvinceService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Discounts.IDiscountRequirementRule" Collapsed="true">
+    <Position X="3" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discounts\IDiscountRequirementRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Discounts.IDiscountService" Collapsed="true">
+    <Position X="4.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAASAAAAAgARAAAAAAAMAAAABAgAoAAQAAAAA=</HashCode>
+      <FileName>Discounts\IDiscountService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Events.IConsumer&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\IConsumer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Events.IEventPublisher" Collapsed="true">
+    <Position X="13.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\IEventPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Events.ISubscriptionService" Collapsed="true">
+    <Position X="22.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ISubscriptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.ExportImport.IExportManager" Collapsed="true">
+    <Position X="17" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAhAAAAAAAAAAAABKAAAAAAAAAAAAAAEAARAAA=</HashCode>
+      <FileName>ExportImport\IExportManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.ExportImport.IImportManager" Collapsed="true">
+    <Position X="8.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ExportImport\IImportManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Forums.IForumService" Collapsed="true">
+    <Position X="24" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAJUAEaEBACQAAAQoAIIAAAAEAgAABMQOAgAIwCgGIA=</HashCode>
+      <FileName>Forums\IForumService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Helpers.IDateTimeHelper" Collapsed="true">
+    <Position X="25.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAEAAAAAAAAAAgAAAAEAAAAAAAAEAgAAAAAAE=</HashCode>
+      <FileName>Helpers\IDateTimeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Helpers.IUserAgentHelper" Collapsed="true">
+    <Position X="11.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\IUserAgentHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Installation.IInstallationService" Collapsed="true">
+    <Position X="10" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Installation\IInstallationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Localization.ILanguageService" Collapsed="true">
+    <Position X="11.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAA=</HashCode>
+      <FileName>Localization\ILanguageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Localization.ILocalizationService" Collapsed="true">
+    <Position X="13.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgCAAAAAAAAAAAAECAIgAAQAAACAAAAAA=</HashCode>
+      <FileName>Localization\ILocalizationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Localization.ILocalizedEntityService" Collapsed="true">
+    <Position X="15.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKABAAAAAAAIAAAAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Localization\ILocalizedEntityService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Logging.ICustomerActivityService" Collapsed="true">
+    <Position X="15.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAgAAFAAAAAADAAAABAAgAAIQAAAAAAAAA=</HashCode>
+      <FileName>Logging\ICustomerActivityService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Logging.ILogger" Collapsed="true">
+    <Position X="17" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAABAAAAEiAAAAQAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Media.IDownloadService" Collapsed="true">
+    <Position X="6.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAgAAAAAQAAAABEAAAAAAE=</HashCode>
+      <FileName>Media\IDownloadService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Media.IPictureService" Collapsed="true">
+    <Position X="3" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAKBAAAAAEABQgAAAAAAAAAgAACAAAAIABAA=</HashCode>
+      <FileName>Media\IPictureService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.ICampaignService" Collapsed="true">
+    <Position X="18.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAACAAAAQAABAAAAAAAAAAAAAAAEAAAAAQA=</HashCode>
+      <FileName>Messages\ICampaignService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IEmailAccountService" Collapsed="true">
+    <Position X="8.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAEARAAIAAAAA=</HashCode>
+      <FileName>Messages\IEmailAccountService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IEmailSender" Collapsed="true">
+    <Position X="10" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\IEmailSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IMessageTemplateService" Collapsed="true">
+    <Position X="25.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAAAAACAAAAQAAAgAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Messages\IMessageTemplateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IMessageTokenProvider" Collapsed="true">
+    <Position X="3" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAgQAAACQEAAAAAAwAAAhAQAAABQAAAIAQhgAABA=</HashCode>
+      <FileName>Messages\IMessageTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.INewsLetterSubscriptionService" Collapsed="true">
+    <Position X="6.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAQAAAAAAACQAAAAAAAAAAAAABAAAAAQAAAAAEA=</HashCode>
+      <FileName>Messages\INewsLetterSubscriptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IQueuedEmailService" Collapsed="true">
+    <Position X="20.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAQAAAAAAAAAAAAgAAAACoAAAAAAA=</HashCode>
+      <FileName>Messages\IQueuedEmailService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.ITokenizer" Collapsed="true">
+    <Position X="6.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Messages\ITokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Messages.IWorkflowMessageService" Collapsed="true">
+    <Position X="18.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEEQAAAEAAAARBADygkAAGAMBICCEMAAAAAABg=</HashCode>
+      <FileName>Messages\IWorkflowMessageService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.News.INewsService" Collapsed="true">
+    <Position X="8.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAABAAAAAAAFgAAAAAAAAAQAAACCAAAA=</HashCode>
+      <FileName>News\INewsService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.ICheckoutAttributeFormatter" Collapsed="true">
+    <Position X="24" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Orders\ICheckoutAttributeFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.ICheckoutAttributeParser" Collapsed="true">
+    <Position X="25.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAEAAACAAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\ICheckoutAttributeParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.ICheckoutAttributeService" Collapsed="true">
+    <Position X="3" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAAAAAAAABAAEAAkAEAACAAQAAQAAAAAAAAAA=</HashCode>
+      <FileName>Orders\ICheckoutAttributeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IGiftCardService" Collapsed="true">
+    <Position X="6.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAiAABAIAAAAAgAQAIAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\IGiftCardService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IOrderProcessingService" Collapsed="true">
+    <Position X="11.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAANQAAAGABAAAAAAIIECAYAACBABgLAFARAAAKJBA=</HashCode>
+      <FileName>Orders\IOrderProcessingService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IOrderReportService" Collapsed="true">
+    <Position X="13.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAAoAAAAAEAAEAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\IOrderReportService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IOrderService" Collapsed="true">
+    <Position X="15.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAAgAEAEAAEAAAAQAAAAACACSAMAAACAkAAAAAAABg=</HashCode>
+      <FileName>Orders\IOrderService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IOrderTotalCalculationService" Collapsed="true">
+    <Position X="17" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACBAAAAAAEAAAAAgAAAAAkAgAAAAAAAAAAAAQCAAA=</HashCode>
+      <FileName>Orders\IOrderTotalCalculationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Orders.IShoppingCartService" Collapsed="true">
+    <Position X="11.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgEQAABAABAAAAAAAAAAEAAAAACAAAACgCCI=</HashCode>
+      <FileName>Orders\IShoppingCartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Payments.IPaymentMethod" Collapsed="true">
+    <Position X="18.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAiAAEAAACAABAAIAAAggAABAlFAAAQCABA=</HashCode>
+      <FileName>Payments\IPaymentMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Payments.IPaymentService" Collapsed="true">
+    <Position X="20.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBIACAAEAAIKAgAAAAAAAggQABAFFAAAAGABI=</HashCode>
+      <FileName>Payments\IPaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Polls.IPollService" Collapsed="true">
+    <Position X="4.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEEAAAAAAAAgAIAEAAAiAAAAAAAAA=</HashCode>
+      <FileName>Polls\IPollService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Security.IAclService" Collapsed="true">
+    <Position X="3" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAVCAAAAAEAAAAAAAAAAAgAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\IAclService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Security.IEncryptionService" Collapsed="true">
+    <Position X="11.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security\IEncryptionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Security.IPermissionProvider" Collapsed="true">
+    <Position X="24" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Security\IPermissionProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Security.IPermissionService" Collapsed="true">
+    <Position X="25.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAgAADAAAAQAAAAAAACAABCAAAAAAAA=</HashCode>
+      <FileName>Security\IPermissionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Seo.ISitemapGenerator" Collapsed="true">
+    <Position X="13.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Seo\ISitemapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Seo.IUrlRecordService" Collapsed="true">
+    <Position X="10" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAgAICAAAAgAAAAAAAAAIAAABAAE=</HashCode>
+      <FileName>Seo\IUrlRecordService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Shipping.IShipmentService" Collapsed="true">
+    <Position X="4.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAASAAAAAABAAAAAAAADAAAAIEAAABAAAAAIAAAA=</HashCode>
+      <FileName>Shipping\IShipmentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Shipping.IShippingRateComputationMethod" Collapsed="true">
+    <Position X="8.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAACACAAAAAAAgBA=</HashCode>
+      <FileName>Shipping\IShippingRateComputationMethod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Shipping.IShippingService" Collapsed="true">
+    <Position X="10" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAkACAAAAQAAAQAAEAAAhAABAAVAAIRAAkAoJw=</HashCode>
+      <FileName>Shipping\IShippingService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Shipping.Tracking.IShipmentTracker" Collapsed="true">
+    <Position X="6.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQA=</HashCode>
+      <FileName>Shipping\Tracking\IShipmentTracker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Stores.IStoreMappingService" Collapsed="true">
+    <Position X="18.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEAAABAAAAAAAAAAAAAAAAAgBAAAACAABAA=</HashCode>
+      <FileName>Stores\IStoreMappingService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Stores.IStoreService" Collapsed="true">
+    <Position X="20.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAEAAAAAAAEACAA=</HashCode>
+      <FileName>Stores\IStoreService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Tasks.IScheduleTaskService" Collapsed="true">
+    <Position X="24" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAAAAAAAAAEAAAABAABAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Tasks\IScheduleTaskService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Tasks.ITask" Collapsed="true">
+    <Position X="24" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tasks\ITask.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Tax.ITaxCategoryService" Collapsed="true">
+    <Position X="25.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAQAAAQBAA=</HashCode>
+      <FileName>Tax\ITaxCategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Tax.ITaxProvider" Collapsed="true">
+    <Position X="3" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Tax\ITaxProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Tax.ITaxService" Collapsed="true">
+    <Position X="4.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAgAAAABEAAAAAAAAEBEgAAAAAgUAAAAAAAAAA=</HashCode>
+      <FileName>Tax\ITaxService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Topics.ITopicService" Collapsed="true">
+    <Position X="8.25" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAAAAAAAAAAAAAAAAAAACAAAAAAAIACgAAA=</HashCode>
+      <FileName>Topics\ITopicService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Nop.Services.Vendors.IVendorService" Collapsed="true">
+    <Position X="13.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Vendors\IVendorService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Nop.Services.Authentication.External.OpenAuthenticationStatus" Collapsed="true">
+    <Position X="3" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAQAIAAAAEAAIAAAAAAAAAAAQAEAAABA=</HashCode>
+      <FileName>Authentication\External\OpenAuthenticationStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Services.Media.ResizeType" Collapsed="true">
+    <Position X="8.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Media\ResizeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Services.Payments.PaymentMethodType" Collapsed="true">
+    <Position X="4.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Payments\PaymentMethodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Services.Payments.RecurringPaymentType" Collapsed="true">
+    <Position X="6.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payments\RecurringPaymentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Services.Seo.UpdateFrequency" Collapsed="true">
+    <Position X="11.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAAAAAAEAAAQAAAAAAAAAAAggAAAAAgA=</HashCode>
+      <FileName>Seo\UpdateFrequency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Nop.Services.Shipping.ShippingRateComputationMethodType" Collapsed="true">
+    <Position X="10" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Shipping\ShippingRateComputationMethodType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

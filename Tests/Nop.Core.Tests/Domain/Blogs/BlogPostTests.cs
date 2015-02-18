@@ -16,7 +16,9 @@ namespace Nop.Core.Tests.Domain.Blogs
             };
 
             var tags = blogPost.ParseTags();
-            tags.Length.ShouldEqual(3);
+
+            Assert.That(tags.Length, Is.EqualTo(3));
+            //tags.Length.ShouldEqual(3);
             tags[0].ShouldEqual("tag1");
             tags[1].ShouldEqual("tag2");
             tags[2].ShouldEqual("tag 3 4");
